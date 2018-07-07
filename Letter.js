@@ -1,8 +1,20 @@
 // Variable for require inquirer and prompt
-
+var inquirer = require("inquirer");
 
 // Create the constructor Letter function
+var Letter = function(letter) {
+    this.character = letter;
+    this.letterState = false;
+    this.letterGuess = function(){
+        if (this.letterStat) {
+            console.log(this.character);
+        } else {
+            return "-"
+        }
+    }
+};
 
+module.exports = Letter;
 /* Define a string value to store the underlying character 
    for the letter */
 
