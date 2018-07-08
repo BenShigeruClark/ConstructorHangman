@@ -2,7 +2,7 @@
 var inquirer = require("inquirer");
 
 // Create the constructor Letter function
-var Letter = function(letter) {
+function Letter(letter) {
     this.character = letter;
     this.letterState = false;
     this.letterGuess = function(){
