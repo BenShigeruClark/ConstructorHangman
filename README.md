@@ -1,4 +1,4 @@
- ConstructorHangman
+ {{ConstructorHangman}}
 
 This assignment is a Word Guess command line game using the Constructor functions
 
