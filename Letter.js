@@ -9,7 +9,7 @@ function Letter(letter) {
         if (this.letterStat) {
             console.log(this.character);
         } else {
-            return "-"
+            return "_"
         }
     }
 };

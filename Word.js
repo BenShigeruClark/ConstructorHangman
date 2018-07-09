@@ -51,7 +51,7 @@ function Word(wordChoice) {
       };
 
       this.wordTrue = function() {
-          var blankLetter = " ";
+          var blankLetter = "_";
           that.letterArray.forEach(function(letr) {
             var fillInLetter = letr.letterRender();
             blankLetter += fillInLetter;
